@@ -2,7 +2,6 @@
 
 double weighted_average(int array[], int n)
 {
-    // int i = 0;
     int occur[n];
     double sum = 0;
     if (n < 1)
@@ -18,24 +17,6 @@ double weighted_average(int array[], int n)
         }
         occur[i] = k;
     }
-
-    // while (i < n)
-    // {
-    //     int j = 0;
-    //     int k = 0;
-    //     while (j < n)
-    //     {
-    //         if (array[j] == array[i])
-    //         {
-    //             k++;
-    //             j++;
-    //         }
-    //         else
-    //             j++;
-    //     }
-    //     occur[i] = k;
-    //     i++;
-    // }
     for (int p = 0; p < n; p++)
     {
         sum += ((double)array[p] * (double)occur[p] / (double)n);
