@@ -1,16 +1,11 @@
 #include <iostream>
+using namespace std;
 
 int median_array(int array[], int n)
 {
-    int median = 0;
+    if (n < 1 || n % 2 == 0)
+        return (0);
     std::sort(array, array + n);
-    for (int i = 0; i < n; i++)
-        std::cout << array[i];
-    // if (n % 2 == 0)
-    // {
-    //     median += array[n / 2] + array[(n / 2) - 1];
-    //     median /= 2.0;
-    //     return (array[median]);
-    // }
-    return (array[n / 2]);
+    int median = array[n / 2];
+    return (median);
 }

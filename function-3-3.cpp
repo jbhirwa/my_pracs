@@ -16,6 +16,8 @@ double weighted_average(int array[], int n)
     //     }
     //     occur[i] = k;
     // }
+    if (n < 1)
+        return (0);
     while (i != n)
     {
         int j = 0;
