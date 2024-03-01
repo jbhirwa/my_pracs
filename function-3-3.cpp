@@ -37,8 +37,8 @@ double weighted_average(int array[], int n)
     }
     for (int p = 0; p < n; p++)
     {
-        sum += ((double)array[p] * (double)occur[p] / (double)n);
+        sum += double((array[p] * occur[p] / n));
     }
-    std::cout << sum;
+    //  std::cout << sum;
     return (sum);
 }
