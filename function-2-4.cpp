@@ -1,4 +1,5 @@
 #include <iostream>
+#include <algorithm>
 
 bool is_ascending(int array[], int n)
 {
