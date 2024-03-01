@@ -4,7 +4,7 @@ double weighted_average(int array[], int n)
 {
     int i = 0;
     int occur[n];
-    double sum;
+    double sum = 0;
     if (n < 1)
         return (0);
 
