@@ -44,15 +44,15 @@ void count_digits(int array[4][4])
             }
         }
     }
-    std::cout << std::to_string(nl[0]) << ":0;"
-              << std::to_string(nl[1]) << ":1;"
-              << std::to_string(nl[2]) << ":2;"
-              << std::to_string(nl[3]) << ":3;"
-              << std::to_string(nl[4]) << ":4;"
-              << std::to_string(nl[5]) << ":5;"
-              << std::to_string(nl[6]) << ":6;"
-              << std::to_string(nl[7]) << ":7;"
-              << std::to_string(nl[8]) << ":8;"
-              << std::to_string(nl[9]) << ":9;"
+    std::cout << ":0;" << std::to_string(nl[0])
+              << ":1;" << std::to_string(nl[1])
+              << ":2;" << std::to_string(nl[2])
+              << ":3;" << std::to_string(nl[3])
+              << ":4;" << std::to_string(nl[4])
+              << ":5;" << std::to_string(nl[5])
+              << ":6;" << std::to_string(nl[6])
+              << ":7;" << std::to_string(nl[7])
+              << ":8;" << std::to_string(nl[8])
+              << ":9;" << std::to_string(nl[9])
               << std::endl;
 }
