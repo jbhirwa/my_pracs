@@ -1,0 +1,12 @@
+#include "person.h"
+
+Person *createPersonArray(int n)
+{
+    Person *persons = new Person[n];
+    for (int i = 0; i < n; i++)
+    {
+        persons[i].age = 0;
+        persons[i].name = "John Doe";
+    }
+    return persons;
+}
